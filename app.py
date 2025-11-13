@@ -57,5 +57,5 @@ def home():
     return html
 
 if __name__ == '__main__':
-    # Exécuter l'application sur le port 5000
+    # Exécution de l'application sur le port 5000
     app.run(host='0.0.0.0', port=5000, debug=True)
